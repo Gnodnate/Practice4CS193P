@@ -14,6 +14,8 @@
 		254F733F1AEA37D300642B0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254F733D1AEA37D300642B0B /* LaunchScreen.xib */; };
 		254F73561AEA3C0700642B0B /* HappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254F73541AEA3C0700642B0B /* HappinessViewController.swift */; };
 		254F73571AEA3C0700642B0B /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254F73551AEA3C0700642B0B /* FaceView.swift */; };
+		254F73591AEA635F00642B0B /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254F73581AEA635F00642B0B /* TextViewController.swift */; };
+		254F735B1AEA64EF00642B0B /* DiagnosedHappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254F735A1AEA64EF00642B0B /* DiagnosedHappinessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		254F733E1AEA37D300642B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		254F73541AEA3C0700642B0B /* HappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappinessViewController.swift; sourceTree = "<group>"; };
 		254F73551AEA3C0700642B0B /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		254F73581AEA635F00642B0B /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		254F735A1AEA64EF00642B0B /* DiagnosedHappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosedHappinessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,9 @@
 			children = (
 				254F73541AEA3C0700642B0B /* HappinessViewController.swift */,
 				254F73551AEA3C0700642B0B /* FaceView.swift */,
+				254F735A1AEA64EF00642B0B /* DiagnosedHappinessViewController.swift */,
 				254F73361AEA37D300642B0B /* PsychologistViewController.swift */,
+				254F73581AEA635F00642B0B /* TextViewController.swift */,
 				254F73381AEA37D300642B0B /* Main.storyboard */,
 				254F733B1AEA37D300642B0B /* Images.xcassets */,
 				254F73321AEA37D300642B0B /* Supporting Files */,
@@ -148,8 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254F73591AEA635F00642B0B /* TextViewController.swift in Sources */,
 				254F73371AEA37D300642B0B /* PsychologistViewController.swift in Sources */,
 				254F73561AEA3C0700642B0B /* HappinessViewController.swift in Sources */,
+				254F735B1AEA64EF00642B0B /* DiagnosedHappinessViewController.swift in Sources */,
 				254F73351AEA37D300642B0B /* AppDelegate.swift in Sources */,
 				254F73571AEA3C0700642B0B /* FaceView.swift in Sources */,
 			);
