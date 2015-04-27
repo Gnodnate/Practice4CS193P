@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>23649610-6F3E-40DD-95A6-880C41FA23EB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8549B6F868BB8A62496326AE54A517CFA2444F4A</key>
+		<string>github.com:Gnodnate/Practice4CS193P.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AutoLayout/AutoLayout.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8549B6F868BB8A62496326AE54A517CFA2444F4A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Gnodnate/Practice4CS193P.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8549B6F868BB8A62496326AE54A517CFA2444F4A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8549B6F868BB8A62496326AE54A517CFA2444F4A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Practice4CS193P</string>
+		</dict>
+	</array>
+</dict>
+</plist>
