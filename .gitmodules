@@ -1,0 +1,3 @@
+[submodule "Calculator"]
+	path = Calculator
+	url = git@github.com:Gnodnate/Calculator.git
