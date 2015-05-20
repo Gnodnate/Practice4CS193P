@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		253CE7C81B0C928000292F04 /* DropItBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253CE7C71B0C928000292F04 /* DropItBehavior.swift */; };
 		254DA8A31B0B62F7008FDAC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254DA8A21B0B62F7008FDAC4 /* AppDelegate.swift */; };
-		254DA8A51B0B62F7008FDAC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254DA8A41B0B62F7008FDAC4 /* ViewController.swift */; };
+		254DA8A51B0B62F7008FDAC4 /* DropItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254DA8A41B0B62F7008FDAC4 /* DropItViewController.swift */; };
 		254DA8A81B0B62F7008FDAC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254DA8A61B0B62F7008FDAC4 /* Main.storyboard */; };
 		254DA8AA1B0B62F7008FDAC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254DA8A91B0B62F7008FDAC4 /* Images.xcassets */; };
 		254DA8AD1B0B62F7008FDAC4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254DA8AB1B0B62F7008FDAC4 /* LaunchScreen.xib */; };
@@ -26,10 +27,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		253CE7C71B0C928000292F04 /* DropItBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItBehavior.swift; sourceTree = "<group>"; };
 		254DA89D1B0B62F7008FDAC4 /* DropIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		254DA8A11B0B62F7008FDAC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		254DA8A21B0B62F7008FDAC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		254DA8A41B0B62F7008FDAC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		254DA8A41B0B62F7008FDAC4 /* DropItViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropItViewController.swift; sourceTree = "<group>"; };
 		254DA8A71B0B62F7008FDAC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		254DA8A91B0B62F7008FDAC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		254DA8AC1B0B62F7008FDAC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				254DA8A21B0B62F7008FDAC4 /* AppDelegate.swift */,
-				254DA8A41B0B62F7008FDAC4 /* ViewController.swift */,
+				254DA8A41B0B62F7008FDAC4 /* DropItViewController.swift */,
+				253CE7C71B0C928000292F04 /* DropItBehavior.swift */,
 				254DA8A61B0B62F7008FDAC4 /* Main.storyboard */,
 				254DA8A91B0B62F7008FDAC4 /* Images.xcassets */,
 				254DA8AB1B0B62F7008FDAC4 /* LaunchScreen.xib */,
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				254DA8A51B0B62F7008FDAC4 /* ViewController.swift in Sources */,
+				254DA8A51B0B62F7008FDAC4 /* DropItViewController.swift in Sources */,
 				254DA8A31B0B62F7008FDAC4 /* AppDelegate.swift in Sources */,
+				253CE7C81B0C928000292F04 /* DropItBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				254DA8BE1B0B62F7008FDAC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		254DA8BF1B0B62F7008FDAC4 /* Build configuration list for PBXNativeTarget "DropItTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				254DA8C11B0B62F7008FDAC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
